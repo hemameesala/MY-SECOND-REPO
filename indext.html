@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Workout Posture Detection and Guidance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .dashboard {
+            width: 60%;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .side-bar {
+            width: 30%;
+            padding: 20px;
+            background-color: #ecf0f1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .posture-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .posture-info, .guide-text {
+            margin-top: 20px;
+        }
+        .posture-info h3, .guide-text h3 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #34495e;
+        }
+        .button {
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #16a085;
+        }
+        .graph-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+        #videoContainer {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Smart Workout Posture Detection and Guidance</h1>
+</header>
+
+<div class="container">
+    <div class="dashboard">
